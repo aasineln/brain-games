@@ -11,10 +11,9 @@
     - Python 3.8 или выше
     - Менеджер пакетов uv
 
-Установка
-    - Клонируйте репозиторий:
-
+### Установка
 ```bash
+Клонируйте репозиторий:
 git clone https://github.com/aasineln/python-project-49.git
 cd <project-directory>
 ```
