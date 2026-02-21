@@ -1,4 +1,4 @@
-from brain_games.scripts.utils import GameBrainCalc
+from brain_games.game.game_calc import GameBrainCalc
 
 
 def main() -> None:
