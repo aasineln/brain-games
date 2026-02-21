@@ -16,11 +16,13 @@
 Клонируйте репозиторий:
 git clone https://github.com/aasineln/python-project-49.git
 cd <project-directory>
-```
 
-### Установите зависимости с помощью uv:
-```bash
+Установите зависимости с помощью uv:
 make install
+
+Далее выполните сборку дситрибутивов:
+make build
+make package-install
 ```
 
 ### Доступные команды Make:
