@@ -7,25 +7,19 @@
 [![Actions Status](https://github.com/aasineln/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/aasineln/python-project-49/actions)
 
 
-### Требования
+### Requirements
     - Python 3.12 или выше
     - Менеджер пакетов uv
 
-### Установка
+### Installation
 ```bash
-Клонируйте репозиторий:
 git clone https://github.com/aasineln/python-project-49.git
-cd <project-directory>
-
-Установите зависимости с помощью uv:
-make install
-
-Далее выполните сборку дситрибутивов:
+cd python-project-49
 make build
 make package-install
 ```
 
-### Доступные команды Make:
+### Makefile
 `make install` - Установка зависимостей проекта  
 `make build` - Сборка дистрибутивов пакета  
 `make package-install` - Установка собранного пакета глобально  
@@ -33,7 +27,7 @@ make package-install
 `make lint-fix` - Автоматическое исправление ошибок линтера  
 `make black` - Форматирование кода с помощью Black  
 
-### Запуск игры в терминале: 
+### Run games 
 ```
 brain-games  # игра "Приветствие игрока"
 brain-even  # игра "Четность числа"
@@ -43,6 +37,6 @@ brain-progression  # игра "Прогрессия"
 brain-prime  # игра "Простое число"
 ```
 
-### brain-games demo
+### Brain Games demo
 [![asciicast](https://asciinema.org/a/KmBzdRWcPz4tbM6u.svg)](https://asciinema.org/a/KmBzdRWcPz4tbM6u)
 
