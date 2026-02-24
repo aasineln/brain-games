@@ -1,15 +1,26 @@
-### SonarQube
-[![QA SonarQube](https://sonarcloud.io/api/project_badges/measure?project=aasineln_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=aasineln_python-project-49&branch=main)
+### Tests and linter status:   
+[![Actions Status](https://github.com/aasineln/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/aasineln/python-project-49/actions)  [![QA SonarQube](https://sonarcloud.io/api/project_badges/measure?project=aasineln_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=aasineln_python-project-49&branch=main)
 
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/aasineln/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/aasineln/python-project-49/actions)
+## Brain Games
+Brain Games is a collection of console mini-games designed to train logical thinking and test basic math skills. The project consists of five engaging mathematical challenges, each launched with a separate command.
 
+🎮 Included Games:
+```
+* Brain Even — determine if a number is even
+* Brain Calc — perform simple arithmetic operations
+* Brain GCD — find the greatest common divisor of two numbers
+* Brain Progression — find the missing element in an arithmetic progression
+* Brain Prime — check if a number is prime
+```
 
-### Requirements
-    - Python 3.12 или выше
-    - Менеджер пакетов uv
+All games follow the same principle: the player is asked three questions in sequence and must provide correct answers to win.
 
-### Installation
+### 🛠 Requirements
+
+    Python 3.12 or higher
+    uv package manager
+
+### ⚙️ Installation
 ```bash
 git clone https://github.com/aasineln/python-project-49.git
 cd python-project-49
@@ -17,24 +28,31 @@ make build
 make package-install
 ```
 
-### Makefile
-`make install` - Установка зависимостей проекта  
-`make build` - Сборка дистрибутивов пакета  
-`make package-install` - Установка собранного пакета глобально  
-`make lint`	- Проверка кода линтером Ruff  
-`make lint-fix` - Автоматическое исправление ошибок линтера  
-`make black` - Форматирование кода с помощью Black  
+### 🚀 Available Game Commands
 
-### Run games 
+Once the package is installed, games are available as separate console commands:
+bash
 ```
-brain-games  # игра "Приветствие игрока"
-brain-even  # игра "Четность числа"
-brain-calc  # игра "Математические операции"
-brain-gcd  # игра "НОД" наибольший общий делитель
-brain-progression  # игра "Прогрессия"
-brain-prime  # игра "Простое число"
+brain-games          # greet the player
+brain-even           # even number check
+brain-calc           # calculator
+brain-gcd            # greatest common divisor
+brain-progression    # arithmetic progression
+brain-prime          # prime number check
 ```
 
-### Brain Games demo
+### 📦 Makefile Commands
+
+The project uses a Makefile to automate routine tasks:
+```
+make install — install project dependencies
+make build — build package distributions
+make package-install — install the built package globally
+make lint — check code with Ruff linter
+make lint-fix — automatically fix linter errors
+make black — format code with Black
+```
+
+### 🎥 Demo
 [![asciicast](https://asciinema.org/a/KmBzdRWcPz4tbM6u.svg)](https://asciinema.org/a/KmBzdRWcPz4tbM6u)
 
